@@ -22,6 +22,7 @@
 #include "workers.h"
 #include "util.h"
 #include "animation.h"
+#include <stdlib.h>
 
 static void progdots_anim_finished(void *data)
 {

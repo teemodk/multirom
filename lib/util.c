@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+#define _GNU_SOURCE
 
 #include <stdarg.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <fcntl.h>
 #include <ctype.h>
 #include <errno.h>
 #include <time.h>
 #include <dirent.h>
-#include <fcntl.h>
 #include <cutils/android_reboot.h>
+#include <fcntl.h>
 #include <unistd.h>
 
 #ifdef HAVE_SELINUX

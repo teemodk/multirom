@@ -18,6 +18,7 @@
 
 #include "containers.h"
 #include "util.h"
+#include "string.h"
 
 int list_item_count(listItself list)
 {

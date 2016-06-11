@@ -20,6 +20,7 @@
 #include "multirom.h"
 #include "lib/util.h"
 #include "lib/log.h"
+#include <stdlib.h>
 
 multirom_themes_info *multirom_ui_init_themes(void)
 {
